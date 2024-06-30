@@ -1,49 +1,69 @@
 Summary for user 31vxdtsasashoh7okz7jg4nbpida:
 
 Playlist: get hyped 4 sungod 🥶
-Other: 51.28%
-Hip Hop: 38.46%
-Rock: 10.26%
-
-Playlist: queen
-
-Playlist: classics
-
-Playlist: ~rock
-
-Playlist: pump
-
-Playlist: hittin' roads
-
-Playlist: telugu
-
-Playlist: bollywood
+Other: 52.27%
+Hip Hop: 34.09%
+Rock: 9.09%
+Pop: 4.55%
 
 Playlist: mellow
-Hip Hop: 28.69%
-Pop: 37.13%
-Other: 29.54%
-Rock: 1.27%
-Country: 1.27%
-Electronic: 2.11%
+Other: 22.67%
+Pop: 34.16%
+Hip Hop: 37.89%
+Electronic: 1.24%
+Rock: 3.11%
+Country: 0.93%
+
+Playlist: queen
+Hip Hop: 52.37%
+Other: 35.26%
+Pop: 11.58%
+Rock: 0.79%
+
+Playlist: ~rock
+No genres found: 100.00%
+
+Playlist: pump
+No genres found: 100.00%
 
 Playlist: rain drop pop pop
-Hip Hop: 23.68%
-Other: 15.04%
-Pop: 59.77%
-Rock: 0.75%
-Electronic: 0.75%
+Other: 17.72%
+Pop: 54.99%
+Hip Hop: 23.22%
+Electronic: 1.43%
+Rock: 2.24%
+Country: 0.41%
+
+Playlist: hittin' roads
+No genres found: 100.00%
+
+Playlist: telugu
+No genres found: 100.00%
+
+Playlist: bollywood
+No genres found: 100.00%
 
 Playlist: smooth
-Hip Hop: 48.93%
-Pop: 28.88%
-Other: 18.72%
-Rock: 2.41%
-Country: 0.80%
-Electronic: 0.27%
+Other: 17.86%
+Pop: 31.36%
+Hip Hop: 45.01%
+Electronic: 0.84%
+Rock: 3.94%
+Country: 0.98%
+
+Playlist: classics
+Other: 19.58%
+Pop: 42.02%
+Hip Hop: 31.75%
+Electronic: 1.52%
+Jazz: 0.19%
+Rock: 4.56%
+Country: 0.38%
 
 Playlist: caviar
-Hip Hop: 79.18%
-Pop: 10.82%
-Other: 10.00%
+Rock: 0.08%
+Other: 11.19%
+Pop: 11.57%
+Hip Hop: 76.93%
+Electronic: 0.23%
 

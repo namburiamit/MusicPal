@@ -26,6 +26,9 @@ class Summarizer:
         self.token = self.get_token()
 
     def get_token(self):
+        """
+        Authenticate with Spotify and get an access token.
+        """
         auth = clientID + ":" + clientSECRET
         url = "https://accounts.spotify.com/api/token"
         headers = {
@@ -39,6 +42,9 @@ class Summarizer:
         return token
 
     def get_playlist_tracks(self, playlist_id):
+        """
+        Get all tracks from a playlist.
+        """
         tracks = []
         url = f"https://api.spotify.com/v1/playlists/{playlist_id}/tracks"
         headers = {"Authorization": "Bearer " + self.token}
@@ -50,6 +56,9 @@ class Summarizer:
         return tracks
 
     def get_playlist_genre_percentages(self, playlist_id):
+        """
+        Get the genre percentages for a playlist.
+        """
         tracks = self.get_playlist_tracks(playlist_id)
         all_genres = []
 
@@ -73,6 +82,9 @@ class Summarizer:
         return genre_percentages
 
     def get_artist_info(self, artist_id):
+        """
+        Get information about an artist.
+        """
         url = f"https://api.spotify.com/v1/artists/{artist_id}"
         headers = {"Authorization": "Bearer " + self.token}
         result = get(url, headers=headers)
@@ -80,9 +92,15 @@ class Summarizer:
         return json_result
 
     def categorize_genre(self, genre):
+        """
+        Categorize a genre into main genres.
+        """
         return next((main_genre for main_genre, sub_genres in main_genres.items() if any(sub_genre in genre.lower() for sub_genre in sub_genres)), "Other")
 
     def get_user_playlists(self, user_id):
+        """
+        Get all playlists of a user.
+        """
         playlists = []
         url = f"https://api.spotify.com/v1/users/{user_id}/playlists"
         headers = {"Authorization": "Bearer " + self.token}
@@ -94,6 +112,9 @@ class Summarizer:
         return playlists
 
     def summarize_playlist(self, playlist):
+        """
+        Summarize a playlist by calculating the genre percentages.
+        """
         name = playlist.get("name", "")
         playlist_id = playlist.get("id")
         genre_percentages = self.get_playlist_genre_percentages(playlist_id)
@@ -106,6 +127,9 @@ class Summarizer:
         return summary
 
     def summarize(self, user_id):
+        """
+        Summarize all playlists of a user.
+        """
         playlists = self.get_user_playlists(user_id)
         summary = f"Summary for user {user_id}:\n\n"
         
